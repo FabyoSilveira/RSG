@@ -60,11 +60,11 @@ while condicao:
     else:
         print('Numero de creditos invalido, programa passivel de resultados inconsistentes\n')
     
-    #instanciacao da classe(criacao de um objeto materia)
+    #instanciacao da classe(criacao de um objeto 'materia')
     _materia = Materia(nome, credito, conceito)
     #fim da instanciacao
 
-    #adicionando o objeto no vetor de objetos materia
+    #adicionando o objeto no vetor de objetos 'materia'
     materias.append(_materia)
 
 #fim do while de cadastro
