@@ -92,13 +92,13 @@ while condicao:
     print('Seu RSG final é', rsg)
     print('\n')
 
-  if opcao == 2:
+  elif opcao == 2:
     
     while i < len(materias):
       print(materias[i].nome, '- Peso Credito:', materias[i].credito, ', Peso Conceito: ', materias[i].conceito)
       i += 1
 
-  if opcao == 3:
+  elif opcao == 3:
     break
 
 #fim do while de exibição
